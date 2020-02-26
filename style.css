@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*HEADER*/
+.site-header {
+  background-image: url(img/fondo3.jpg);
+  background-size: cover;
+  height: 70vh;
+}
+
+.site-header h1 {
+  font-size: 2rem;
+  color: white;
+  background-color: yellow;
+  width: 27rem;
+  padding: 1rem;
+}
+
+.site-header .motivacion-frase {
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 23rem;
+  padding: 1rem;
+  margin-bottom: 7rem;
+}
+
+.contenedor {
+  max-width: 110rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.navegador {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1.3rem;
+}
+
+.navegador img {
+  width: 6rem;
+}
+
+.navegador a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.navegador a:hover {
+  background-color: yellow;
+  color: black;
+  padding: 1rem;
+}
+
+/*CARACTERISTICAS*/
+.caracteristica-auto {
+  display: flex;
+  text-align: center;
+}
+
+.caracteristica-auto img {
+  width: 4rem;
+}
+
+.caracteristica-auto div:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.caracteristica-principal {
+  flex-basis: 40%;
+  background-color: white;
+  padding: 1rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.caracteristica1, .caracteristica2, .caracteristica3 {
+  background-color: yellow;
+  padding: 1rem;
+}
+
+
+/*SECTION-PROMOCION*/
+
+.promociones {
+  display: flex;
+  margin-top: 20rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: space-between;
+}
+
+.promocion-icono {
+  margin-left: 5rem;
+  background-color: yellow;
+  padding: 1rem;
+}
+
+.promocion-icono img {
+  width: 4rem;
+  padding: 1rem;
+}
+
+.promocion-informacion {
+  padding: 1rem;
+  color: white;
+}
+
+.promocion-vermas {
+  margin-right: 5rem;
+  background-color: yellow;
+  padding: 2rem;
+}
+
+.promocion-vermas input {
+  background-color: yellow;
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+/*SECTION-GALERIA-AUTOS*/
+.galeria-autos {
+  display: flex;
+  max-width: 110rem;
+  margin: 3rem 10rem;
+  justify-content: space-around;
+  flex-basis: calc(25% - 1rem);
+}
+
+.auto-principal {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.auto {
+  font-size: 0.8rem;
+}
+
+.auto-foto{
+  width: 16rem;
+  object-fit: cover;
+}
+.auto-foto img {
+  width: 100%;
+}
